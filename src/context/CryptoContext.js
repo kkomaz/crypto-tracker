@@ -20,7 +20,7 @@ export default function CryptoProvider({ children }) {
   };
 
   useEffect(() => {
-    // getCryptoData();
+    getCryptoData();
   }, []);
 
   return (
